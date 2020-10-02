@@ -7,7 +7,7 @@ corporate ties and more.
 
 The app has these five features:
 1. Users can enter common meals and see the typical ingredients involved in the recipe.
-2. Users can also choose to enter individual ingredients to build their own recipe.
+2. Users can also choose to enter individual ingredients to build their own recipe.[Tiffanie]
 3. From there, users should be able to see information on possible problems with each ingredient and choose more ethical alternatives.
 4. Users should be able to make an account or use the app as a guest.
 5. Users who do make an account should be able to save their ethical meals in a recipe book for later viewing.
