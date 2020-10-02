@@ -13,8 +13,8 @@ The app has these five features:
 5. Users who do make an account should be able to save their ethical meals in a recipe book for later viewing.
 
 Team members:
-1. [Tiffanie Alcaide](alcaidet@oregonstate.edu)
-2. [Kedar Damle](damlek@oregonstate.edu)
-3. [Joshua Nicholson](nichojos@oregonstate.edu)
-4. [Troy Holt](holttr@oregonstate.edu)
-5. [Derrick Tam](tamde@oregonstate.edu)
+1. [Tiffanie Alcaide]("mailto: alcaidet@oregonstate.edu")
+2. [Kedar Damle]("mailto: damlek@oregonstate.edu")
+3. [Joshua Nicholson]("mailto: nichojos@oregonstate.edu")
+4. [Troy Holt]("mailto: holttr@oregonstate.edu")
+5. [Derrick Tam]("mailto: tamde@oregonstate.edu")
