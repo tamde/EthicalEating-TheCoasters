@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Login / Register
+    </title>
+    <meta name="description" content="Login | Register page">
+    <meta name="author" content="damlek@oregonstate.edu">
+    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="stylesheet" href="login_register.css">
+  </head>
+  <body>
+    <div id="logoContainer">
+      <div id="logo"> Ethical Eats</div>
+      <div id="searchBar">
+          <input id="searchInput" type="text" placeholder="Search..">
+      </div>
+      <div id="loginBar">
+          <a href="/login_register.html">Login | Register</a>
+      </div>
+    </div>
+    <div id="formContainer">
+      <h1>Login</h1>
+      <form action="/login" method="POST">
+        <fieldset>
+          <legend>Please enter your username and password</legend>
+          <div>
+            <label for="username"> Username </label> <br>
+            <input
+              type="text"
+              id="log_username"
+              name="log_username"
+              title="Username"
+              required>
+          </div>
+          <div>
+            <label for="password"> Password </label> <br>
+            <input
+              type="password"
+              id="log_password"
+              name="log_password"
+              title="Password"
+              required>
+          </div>
+          <button type="submit">Login</button>
+        </fieldset>
+      </form>
+      <h1>Register</h1>
+      <form action="/register" method="POST" onsubmit="return(validate());">
+        <fieldset>
+          <legend>Please choose a username and password</legend>
+          <div>
+            <label for="username"> Username </label> <br>
+            <input
+              type="text"
+              id="reg_username"
+              name="reg_username"
+              pattern=".{6,8}"
+              title="Six to eight characters"
+              required>
+          </div>
+          <div>
+            <label for="password"> Password </label> <br>
+            <input
+              type="password"
+              id="reg_password"
+              name="reg_password"
+              pattern=".{10,}"
+              title="Ten or more characters"
+              required>
+          </div>
+          <div>
+            <label for="password"> Confirm password </label> <br>
+            <input 
+              type="password"
+              id="confirm_password"
+              name="confirm_password"
+              onkeyup="validate()"
+              required>
+          </div>
+          <div>
+            <label for="nickname"> Nickname (Optional) </label> <br>
+            <input
+              type="text"
+              id="reg_nickname"
+              name="reg_nickname"
+              pattern=".{6,8}"
+              title="Six to eight characters">
+          </div>
+          <button type="submit">Register</button>
+        </fieldset>
+      </form>
+      <a href="/">Home</a>
+    </div>
+    <script src="login_register.js"></script>
+    
+  </body>
+</html>
+
