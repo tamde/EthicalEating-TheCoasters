@@ -25,6 +25,7 @@ server.set('port', 3000);
 /* Routes */
 server.use(require('./routes/home'));
 server.use(require('./routes/login_register'));
+server.use(require('./routes/build_recipe'));
 
 server.use(function(req,res){
   res.status(404);
