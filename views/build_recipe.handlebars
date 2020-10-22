@@ -1,0 +1,86 @@
+<!-- TOP NAV BAR -->
+
+<div id="logoContainer">
+    <div id="logo"><a href="/">Ethical Eats</a></div>
+    <div id="searchBar">
+        <input id="searchInput" type="text" placeholder="Search..">
+    </div>
+    <div id="loginBar">
+        <a href="/login_register">Login | Register</a>
+    </div>
+  </div>
+
+
+<h2>Build Your Own Recipe</h2>
+
+
+<div id="formContainer">
+<!-- Insert Your Own Ingredient Form -->
+
+    <div id="ingredient_div">
+        <h2>Build Your Own Recipe</h2>
+        <form id="ingredient_form">
+            <fieldset>
+                <legend>Enter your own ingredient in the form below to build a recipe.</legend>
+                <label for="ingredient">Ingredient:</label>  
+                <input type="text" id="ingredient" name="ingredient">
+                <br>
+                <label for="measurement">Measurement:</label>
+                <input type="number" id="measurement" name="measurement">
+                <br>
+                <label for="unit">Unit:</label>
+                <input type="text" id="unit" name="unit">
+                <br>
+                <input type="submit" id="submit_ingredient" value="Enter">
+            </fieldset>
+          </form>
+    </div>
+    
+
+
+    <!-- Recipe Form -->
+    <div>
+        <h2>My Recipe</h2>
+
+        <fieldset>
+        <legend>Build your recipe and check whether your ingredients are ethical.</legend>
+        <table id="recipe_table">
+            <tr>
+                <th>Ingredient</th>
+                <th>Measurement</th>
+                <th>Unit</th>
+                <th>Check</th>
+                <th>Delete</th>
+            </tr>
+            
+            <tr>
+                <td><input type="text" value="Egg"></td> <!-- add quotes in case there is a space in the string  -->
+                <td><input type="number" value=1></td>
+                <td><input type="text" value="cup"></td>
+                <td><input type="submit" value="Check"></td>
+                <td><input type="submit" value="Delete"></td>
+            </tr>
+
+            <tr>
+                <td><input type="text" value="Milk"></td> <!-- add quotes in case there is a space in the string  -->
+                <td><input type="number" value=2></td>
+                <td><input type="text" value="ounces"></td>
+                <td><input type="submit" value="Check"></td>
+                <td><input type="submit" value="Delete"></td>
+            </tr>
+
+            <tr>
+                <td><input type="text" value="Sugar"></td> <!-- add quotes in case there is a space in the string  -->
+                <td><input type="number" value=3></td>
+                <td><input type="text" value="grams"></td>
+                <td><input type="submit" value="Check"></td>
+                <td><input type="submit" value="Delete"></td>
+            </tr>
+        </table>
+
+        <textarea rows="6" cols="70">Enter cooking instructions here.</textarea>
+        <br>
+        <input type="submit" value="Finish Recipe">
+        </fieldset>
+    </div>
+</div>
