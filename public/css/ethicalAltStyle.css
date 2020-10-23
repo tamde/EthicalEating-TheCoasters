@@ -1,0 +1,35 @@
+.popup
+{
+    position: relative;
+    left:80px;
+    bottom:18px;
+}
+
+.ingredientItem
+{
+    font-size: large;
+}
+
+.foodPic
+{
+    width: 25%;
+    height: 300px;
+    background-color: grey;
+    /* border: 1px solid grey; */
+}
+
+.hide 
+{
+    display: none;
+  }
+  .popup:hover + .hide {
+    display: block;
+    color: red;
+  }
+
+.hiddenList
+{
+    position: relative;
+    left:80px;
+    bottom:20px;
+}
